@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.t-transfor{
+    text-transform: capitalize;
+}
+
+.back-color{
+    color: #049ACD;
+}
+
+.back-color2{
+    background-color: #FCFCFC;
+}
+
+.back-color3{
+    background-color: #049ACD;
+}
+
+.t-color{
+    color: #FFF;
+}
+
+.el-f-left{
+    float: left;
+}
+
+.el-f-right{
+    float: right;
+}
+
+/* start header */
+
+header{
+    padding: 15px 0;
+    background-color: #F4F4F4;
+    border-bottom: 2px solid #049ACD;
+}
+
+.brand{
+    width: 75%;
+}
+
+.form-search{
+    width: 25%;
+}
+
+.brand h1{
+    display: inline;
+    font-size: 30px;
+}
+
+.brand span{
+    font-size: 13px;
+}
+
+header .form-search{
+    margin-top: 5px;
+}
+
+header .form-search input{
+    padding: 5px 0;
+    text-indent: 5px;
+    width: 100%;    
+    outline: none;
+}
+
+/* start navbar */
+
+nav,
+footer{
+    background-color: #343434;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li{
+    padding: 15px 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul li:first-of-type{
+    padding-left: 0;
+}
+
+
+article,
+footer{
+    margin-top: 30px ;
+}
+
+article .blogs,
+article .side-bar{
+    border: 1px solid #CCC;
+    padding: 15px;
+}
+
+
+article .blogs{
+    width: 65%;
+}
+
+article .side-bar{
+    width: 27%;
+}
+
+article button{
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+article .paragraph{
+    padding: 10px 7px;
+}
+
+article .blog-post p:last-of-type,
+article .side-bar p{
+    line-height: 25px;
+}
+hr{
+    margin-top: 20px;
+}
