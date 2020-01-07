@@ -1,1 +1,1 @@
-# WO-Template
+# WP-Template
